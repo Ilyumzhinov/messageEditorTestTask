@@ -1,0 +1,107 @@
+.templateEditor {
+    width: 80vw;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    text-align: center;
+}
+
+.editor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.ifBlock {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.ifBlockLine {
+    flex: 1;
+    display: flex;
+}
+
+.inputBlock {
+    flex: 1;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgb(203, 203, 203);
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.ifBlockLabel {
+    width: 100px;
+    display: flex;
+    align-items: baseline;
+}
+
+.varButton {
+    background-color: rgb(201, 227, 121);
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.varButton:not(:last-child) {
+    margin-right: 0.5em;
+}
+
+.addButton {
+    background: linear-gradient(180deg, rgb(222, 222, 222) 0%, rgb(192, 192, 192) 100%);
+    border-radius: 5px;
+    padding: 0.5em;
+    border: 1px solid rgb(192, 192, 192);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}
+
+.ifLabel {
+    background-color: green;
+    padding: 1px 3px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 192, 192);
+    width: fit-content;
+    height: fit-content;
+    font-size: small;
+    font-weight: bold;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.modalButton {
+    background-color: rgb(52, 64, 75);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.7em;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.modalButton:not(:last-child) {
+    margin-right: 10px;
+}
+
+.trashButton {
+    padding: 1px 3px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    background: none;
+    border: none;
+}

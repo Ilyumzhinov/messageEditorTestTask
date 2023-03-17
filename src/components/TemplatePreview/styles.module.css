@@ -1,0 +1,60 @@
+.templatePreview {
+    width: 60vw;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    text-align: center;
+}
+
+.message {
+    height: 8em;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.variablesBlock {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.variableText {
+    float: left;
+}
+
+.variable {
+    float: left;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.variable>label {
+    position: absolute;
+    font: small-caption;
+    top: 0.5em;
+    left: 0.5em;
+    color: gray;
+}
+
+.variable>input {
+    padding: 2em 5px 0.5em;
+    border: 0;
+}
+
+.modalButton {
+    background-color: rgb(52, 64, 75);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.7em;
+    width: fit-content;
+    margin: auto;
+    font-weight: bolder;
+}
