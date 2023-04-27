@@ -4,6 +4,10 @@
 
 Стек: React v18, TypeScript.
 
+## Демо
+
+Демо в браузере: [github.io ↗️](https://ilyumzhinov.github.io/messageEditorTestTask)
+
 ## Установка
 
 ```bash
