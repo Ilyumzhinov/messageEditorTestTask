@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/messageEditorTestTask/static/css/main.96ea02e4.css",
+    "main.js": "/messageEditorTestTask/static/js/main.8d2de3d6.js",
+    "static/js/787.ce81dd3b.chunk.js": "/messageEditorTestTask/static/js/787.ce81dd3b.chunk.js",
+    "index.html": "/messageEditorTestTask/index.html",
+    "main.96ea02e4.css.map": "/messageEditorTestTask/static/css/main.96ea02e4.css.map",
+    "main.8d2de3d6.js.map": "/messageEditorTestTask/static/js/main.8d2de3d6.js.map",
+    "787.ce81dd3b.chunk.js.map": "/messageEditorTestTask/static/js/787.ce81dd3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96ea02e4.css",
+    "static/js/main.8d2de3d6.js"
+  ]
+}
